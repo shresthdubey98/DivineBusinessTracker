@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/history_complete_entry_linear_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:longClickable="false">
+
+    <TextView
+        android:id="@+id/history_id"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:fontFamily="@android:string/defaultMsisdnAlphaTag"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="5dp"
+        android:text="Request Id"
+        android:textAlignment="center"
+        android:textColor="#704700"
+        android:textSize="16dp" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/history_date"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@android:string/defaultMsisdnAlphaTag"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="5dp"
+        android:text="date"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"/>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/history_amt"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@android:string/defaultMsisdnAlphaTag"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="5dp"
+        android:text="Amt."
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/history_status"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@android:string/defaultMsisdnAlphaTag"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="5dp"
+        android:text="Status"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+</LinearLayout>

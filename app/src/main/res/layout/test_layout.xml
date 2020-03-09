@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/abcd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:elevation="5dp"
+        app:logo="@drawable/ic_arrow_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Data"
+        app:titleMarginStart="30dp" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_alignParentTop="false"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/buySell_toolbar"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnBar"
+        android:drawSelectorOnTop="true"/>
+    <LinearLayout
+        android:id="@+id/btnBar"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/previous"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Previous"/>
+        <Button
+            android:id="@+id/next"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Next"/>
+    </LinearLayout>
+
+</RelativeLayout>

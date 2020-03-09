@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/complete_entry_linear_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:longClickable="false"
+    >
+
+    <TextView
+        android:id="@+id/serial_no_textview"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:fontFamily="@android:string/defaultMsisdnAlphaTag"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="5dp"
+        android:text="S No."
+        android:textAlignment="center"
+        android:textColor="#C6000000"
+        android:textSize="16dp" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/product_true_name"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@android:string/defaultMsisdnAlphaTag"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="5dp"
+        android:text="Productasdfhakjsdhfkajsdhflkajsd asjdhfkasjdfhalksdjfhalkds fakjsdhfa kjsdfh aksdjfh aksdjh faksjdhf "
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/qty_sold"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@android:string/defaultMsisdnAlphaTag"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="5dp"
+        android:text="Qty."
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/amount_sold"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@android:string/defaultMsisdnAlphaTag"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="5dp"
+        android:text="Amt."
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+</LinearLayout>
